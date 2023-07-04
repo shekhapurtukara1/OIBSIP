@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+#title{
+    text-align: center;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.calculator input {
+    grid-column: span 4;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.calculator button {
+    padding: 10px;
+    font-size: 18px;
+}
+    
